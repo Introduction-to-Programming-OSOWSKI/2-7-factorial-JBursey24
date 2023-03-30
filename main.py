@@ -1,4 +1,5 @@
 def factorial(x):
+    y=x
     for i in range(1,x-1):
-        y=(x*(x-i))
+        y=(y*(x-i))
     return(y)
